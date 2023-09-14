@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "cover-img": "https://i.ibb.co/nBvnwXJ/Rectangle-2-2.png",
+        "title": "Introduction to C Programming",
+        "description": "C language is also known as a structured programming language. That's why C is easy to debug and test. The C programming language contains 32 keywords, a set of powerful built-in functions.",
+        "price": 15000,
+        "credit": 1
+    },
+    {
+        "id": 2,
+        "cover-img": "https://i.ibb.co/zxMD79b/Rectangle-2-3.png",
+        "title": "Introduction to Algorithms",
+        "description": "Algorithms uniquely combines rigor and comprehensiveness. It covers a broad range of algorithms in depth, yet makes their design and analysis accessible to all levels of readers, with self-contained chapters and algorithms in pseudocode.",
+        "price": 25000,
+        "credit": 2
+    },
+    {
+        "id": 3,
+        "cover-img": "https://i.ibb.co/V98RZY8/Rectangle-2-4.png",
+        "title": "Introduction to C++ for DSA",
+        "description": "C++ Data Structures and Algorithms (DSA) is a part of Computer Science in which there is the study of different Algorithms and Data Structures using the C++ programming language.",
+        "price": 10000,
+        "credit": 10
+    },
+    {
+        "id": 4,
+        "cover-img": "https://i.ibb.co/xDfR6BV/Rectangle-3.png",
+        "title": "Basic Data Structures",
+        "description": " Data structure is a method to store and organize data so it can be easily used to perform operations to get desired results. Arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs are the basic data structures.",
+        "price": 35000,
+        "credit": 5
+    },
+    {
+        "id": 5,
+        "cover-img": "https://i.ibb.co/kDkZChD/Rectangle-2.png",
+        "title": "Introduction to OOP Python",
+        "description": "Object-Oriented Programming (OOP) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming.",
+        "price": 19000,
+        "credit": 5
+    },
+    {
+        "id": 6,
+        "cover-img": "https://i.ibb.co/ns4rBSx/Rectangle-2-5.png",
+        "title": "Software Engineering",
+        "description": "Software Engineers create software using the right programming languages, platforms and architectures. Not only do they build their systems, but they also develop, test, improve and maintain software by other engineers.",
+        "price": 23000,
+        "credit": 2
+    },
+    {
+        "id": 7,
+        "cover-img": "https://i.ibb.co/rGfhxJT/Rectangle-3-1.png",
+        "title": "AWS, Cloud Computing",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 35000,
+        "credit": 5
+    },
+    {
+        "id": 8,
+        "cover-img": "https://i.ibb.co/t8MpfY0/Rectangle-2-1.png",
+        "title": "Database (MySQL)",
+        "description": "MySQL Database is a client/server system that consists of a multithreaded SQL server that supports different back ends, several different client programs and libraries, administrative tools, and a wide range of application-programming interfaces (APIs).",
+        "price": 19000,
+        "credit": 5
+    },
+    {
+        "id": 9,
+        "cover-img": "https://i.ibb.co/x1H2v00/Rectangle-2-6.png",
+        "title": "Problem-Solving Part",
+        "description": "Problem-solving includes three main parts: identifying the problem, analyzing possible solutions, and deciding on the best course of action.",
+        "price": 23000,
+        "credit": 2
+    }
+]
