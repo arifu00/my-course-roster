@@ -1,11 +1,13 @@
-import React from 'react';
+const Cart = ({ cart }) => {
+  const { title, credit, price } = cart;
+  console.log(title, credit, price);
+  return (
+    <div>
+   
+        <li className="list-decimal">{title}</li>
 
-const Cart = () => {
-    return (
-        <div>
-            <h2>Course Name:</h2> 
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Cart;
