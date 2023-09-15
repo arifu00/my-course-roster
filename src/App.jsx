@@ -5,13 +5,27 @@ import Cart from "./Components/Cart/Cart";
 
 function App() {
   const [carts, setCarts] = useState([]);
+  const [totalCredit, setTotalCredit] = useState([0]);
+  const [remainingCredit, setRemainingCredit] = useState([20]);
   const handleAddToSelect = (course) => {
     const isExit = carts.find((item) => item.id === course.id);
+    let totalCredit = course.credit;
     if (isExit) {
       return alert(`You Already Enroll the course`);
     } else {
-      const newCarts = [...carts, course];
-      setCarts(newCarts);
+      carts.forEach((item) => {
+        totalCredit += item.credit;
+      });
+      const remainingCredit = 20 - totalCredit;
+      
+      if (totalCredit > 20) {
+        return alert("You can not take any more pressure ");
+      } else {
+        setTotalCredit(totalCredit);
+        setRemainingCredit(remainingCredit);
+        const newCarts = [...carts, course];
+        setCarts(newCarts);
+      }
     }
   };
   return (
@@ -21,7 +35,11 @@ function App() {
       </h4>
       <div className="flex gap-6">
         <Courses handleAddToSelect={handleAddToSelect}></Courses>
-        <Cart carts={carts}></Cart>
+        <Cart
+          carts={carts}
+          remainingCredit={remainingCredit}
+          totalCredit={totalCredit}
+        ></Cart>
       </div>
     </>
   );

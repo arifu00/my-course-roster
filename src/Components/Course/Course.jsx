@@ -12,7 +12,7 @@ const Course = ({ course, handleAddToSelect }) => {
           <h2 className="text-lg font-semibold text-[#1C1B1B] text-center">
             {title}
           </h2>
-          <p className="h-[160px] text-[#1c1b1b99] text-base p-2 font-normal mt-3">
+          <p className="h-[180px] text-[#1c1b1b99] text-base p-2 font-normal mt-3">
             {description}
           </p>
 

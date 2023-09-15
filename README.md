@@ -1,20 +1,9 @@
- ## Project features???
- 
+### Project features....
+- * Dynamicly course add to cart.
+- * Select Button click to add Course in the cart dynamicly.
+- * A course can be added to cart only once time. Cannot add multiple times. 
+- * Only have around 20 credit hr limit to select course.
 
 [Question-2:]Discuss how you managed the state in your assignment project.
+
 - [Answer:]
-
-
-
-
-
-
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
