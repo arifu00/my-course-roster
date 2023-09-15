@@ -25,11 +25,10 @@ const Cart = ({ carts, totalCredit, remainingCredit }) => {
         </div>
         <div className="text-xl font-semibold text-[#1c1b1bcc] pl-4">
           <h3>Total Credit Hour : {totalCredit}hr</h3>
-          
         </div>
         <div className="flex justify-center mt-5 pb-4">
-            <hr className="border-b-2 w-full mx-4 " />
-          </div>
+          <hr className="border-b-2 w-full mx-4 " />
+        </div>
       </div>
     </div>
   );
